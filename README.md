@@ -24,6 +24,8 @@ cd folder-populate
 
 3. Modify snippets.js to your liking
 
-4. Run `yarn link`
+4. If on *ix OS run `chmod +x cli.js` (dont need to do this for windows)
 
-5. You now should be able to use the `folder-populate` command anywhere
+5. Run `yarn link`
+
+6. You now should be able to use the `folder-populate` command anywhere

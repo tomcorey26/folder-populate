@@ -3,6 +3,7 @@
 // https://medium.com/netscape/a-guide-to-create-a-nodejs-command-line-package-c2166ad0452e
 const fs = require('fs')
 const path = require('path');
+const {EOL} = require('os');
 
 const componentName = process.argv[2]
 const relativePath = process.argv[3]
@@ -23,7 +24,7 @@ const files = [
   { 
     ext: '.ts',
     content: [
-      "import { Component, Vue } from 'vue-property-decorator'",
+      "import { Component, Vue } from 'vue-property-decorator';",
       "",
       "@Component",
       `export default class ${componentName} extends Vue {`,
@@ -74,7 +75,7 @@ function addFile(extension, content) {
   const fileName = componentName + extension 
 
   const writer = fs.createWriteStream(`${dir}/${fileName}`)
-  content.forEach(line => writer.write(line + '\n'))
+  content.forEach(line => writer.write(line + EOL))
   writer.close()
 }
 

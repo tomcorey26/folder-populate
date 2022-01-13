@@ -24,6 +24,6 @@ cd folder-populate
 
 3. Modify snippets.js to your liking
 
-4. Run `yarn link` in project directory
+4. Run `yarn link`
 
-5. You now should be able to use the `folder-populate` command
+5. You now should be able to use the `folder-populate` command anywhere

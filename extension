@@ -1,0 +1,10 @@
+https://code.visualstudio.com/api/extension-capabilities/common-capabilities
+https://coderedirect.com/questions/451384/can-a-vscode-extension-create-an-explorer-context-menu-for-a-specific-file
+
+https://stackoverflow.com/questions/41400280/how-to-add-context-menu-with-vscode-extension
+https://css-tricks.com/what-i-learned-by-building-my-own-vs-code-extension/
+
+Right click directory, (pattern match to make sure the option only comes up when its a directory)
+add vue component
+command prompt asks for component name
+extension will write it to file

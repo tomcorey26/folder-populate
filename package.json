@@ -1,0 +1,14 @@
+{
+  "name": "vue-multi-file",
+  "version": "1.0.0",
+  "description": "create component folder with all its files",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tommy corey",
+  "license": "ISC",
+  "bin": {
+    "vue-multi-file": "./cli.js"
+  }
+}

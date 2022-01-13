@@ -1,5 +1,5 @@
 {
-  "name": "vue-multi-file",
+  "name": "folder-populate",
   "version": "1.0.0",
   "description": "create component folder with all its files",
   "main": "cli.js",
@@ -9,6 +9,6 @@
   "author": "tommy corey",
   "license": "ISC",
   "bin": {
-    "vue-multi-file": "./cli.js"
+    "folder-populate": "./cli.js"
   }
 }

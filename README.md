@@ -22,7 +22,7 @@ git clone https://github.com/tomcorey26/folder-populate.git
 cd folder-populate
 ```
 
-3. Modify snippets.js to your liking
+3. Modify `snippets.js` file to your liking
 
 4. If on *ix OS run `chmod +x cli.js` (dont need to do this for windows)
 
